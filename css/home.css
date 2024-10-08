@@ -1,0 +1,307 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.title h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:30px;
+    padding:10px;
+    color: white;
+    background-color:black;
+    text-align: center;
+}
+
+.homepage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: aliceblue;
+}
+
+.logo img{
+    width:60px;
+    border-radius: 50%;
+}
+
+.lists ul li {
+    list-style-type:none;
+    display: inline-block;
+    margin-right: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.lists ul li a{
+    text-decoration:none;
+}
+
+.lists ul li a:hover{
+    color:brown;
+}
+
+.banner-img img{
+    width:100%;
+}
+
+.info-details {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    column-gap: 30px;
+}
+
+.info-content {
+    background-color: rgb(236, 97, 4);
+    padding: 30px;
+}
+
+.info-content p {
+    letter-spacing: 2px;
+    text-align: justify;
+}
+
+.restaurantinfo {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.restaurant-img img {
+    width:380px;
+    height:240px;
+}
+
+.restaurant-text {
+    text-align:center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:13px;
+    text-transform: capitalize;
+}
+
+.order{
+    background-color: black;
+    margin: 0px 35px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.order h3{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    padding:20px;
+    /* align-items: center; */
+}
+
+.footer-logo img{
+    border-radius: 50%;
+    width:100px;
+}
+
+.hours{
+    color: white;
+    text-align: center;
+}
+
+.hours h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hours h4{
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 15px 0px;
+}
+
+
+.address-details {
+    color: white;
+}
+
+.address p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.numbers {
+    line-height: 2.0;
+}
+
+.numbers a {
+    text-decoration: none;
+    color: white;
+}
+.follow h3{
+    color: white;
+}
+
+.follow a{
+    padding: 4px;
+    text-decoration: none;
+}
+
+@media (max-width:904px){
+    .info-details {
+        width:100%;
+        padding: 20px;
+        column-gap: 20px;
+    }
+    .restaurant-img img{
+        width: 200px;
+        height: 160px;
+    }
+    .restaurant-text h2{
+        font-size: 20px;
+    }
+    .footer-logo img{
+        border-radius: 50%;
+        width:70px;
+    }
+
+    .hours h2{
+        font-size: 10px;
+    }
+    .hours h4{
+        font-size: 10px;
+    }
+    .hours h5{
+        font-size: 10px;
+    }
+    .address p{
+        font-size: 10px;
+    }
+    .numbers i{
+        font-size: 10px;
+    }
+    .numbers a{
+        font-size: 10px;
+    }
+    .map iframe{
+        height: 200px;
+    }
+    .follow h3{
+        font-size: 10px;
+    }
+    .follow a{
+        font-size: 10px;
+    }
+}
+@media (max-width:686px){
+    .footer-logo img{
+        border-radius: 50%;
+        width:40px;
+    }
+    .hours{
+        margin-right:2px;
+        margin-left:2px;
+    }
+
+    .hours h2{
+        font-size: 6px;
+    }
+    .hours h4{
+        font-size: 6px;
+    }
+    .hours h5{
+        font-size: 6px;
+    }
+    .address p{
+        font-size: 6px;
+    }
+    .numbers {
+        line-height: 1.0;
+    }
+    .numbers i{
+        font-size: 6px;
+    }
+    .numbers a{
+        font-size: 6px;
+    }
+    .map iframe{
+        width: 140px;
+        height: 160px;
+    }
+    .follow{
+        margin-left:10px;
+    }
+    .follow h3{
+        font-size: 6px;
+    }
+    .follow a{
+        font-size: 6px;
+    }
+}
+@media (max-width:500px) {
+    .restaurant-img img{
+        width: 120px;
+        height: 80px;
+    }
+    .restaurant-text h2{
+        font-size:10px;
+    }
+}
+@media(max-width:320px) {
+    .info-details {
+        width:100%;
+        padding: 10px;
+        column-gap: 10px;
+    }
+    .restaurant-img img{
+        width: 100px;
+        height: 80px;
+    }
+    .restaurant-text h2{
+        font-size: 10px;
+    }
+    .footer-logo img{
+        border-radius: 50%;
+        width:40px;
+    }
+    .hours{
+        margin-right:2px;
+        margin-left:2px;
+    }
+
+    .hours h2{
+        font-size: 6px;
+    }
+    .hours h4{
+        font-size: 6px;
+    }
+    .hours h5{
+        font-size: 6px;
+    }
+    .address p{
+        font-size: 6px;
+    }
+    .numbers {
+        line-height: 1.0;
+    }
+    .numbers i{
+        font-size: 6px;
+    }
+    .numbers a{
+        font-size: 6px;
+    }
+    .map iframe{
+        width: 140px;
+        height: 160px;
+    }
+    .follow{
+        margin-left:10px;
+    }
+    .follow h3{
+        font-size: 6px;
+    }
+    .follow a{
+        font-size: 6px;
+    }
+}

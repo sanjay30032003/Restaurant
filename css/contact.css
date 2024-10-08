@@ -1,0 +1,214 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.title h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:30px;
+    padding:10px;
+    color: white;
+    background-color:black;
+    text-align: center;
+}
+
+.homepage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: aliceblue;
+}
+
+.logo img{
+    width:60px;
+    border-radius: 50%;
+}
+
+.lists ul li {
+    list-style-type:none;
+    display: inline-block;
+    margin-right: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.lists ul li a{
+    text-decoration:none;
+}
+
+.lists ul li a:hover{
+    color:brown;
+}
+
+
+.contact-page{
+    background-image: url('../images/contact.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 140vh;
+    position: relative;
+}
+
+.contact-title {
+    position: absolute;
+    top: 20%;
+    right: 80%;
+}
+
+.contact-title h2{
+    font-size: 40px;
+    color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    padding:20px;
+    /* align-items: center; */
+}
+
+.footer-logo img{
+    border-radius: 50%;
+    width:100px;
+}
+
+.hours{
+    color: white;
+}
+
+.hours h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hours h4{
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 15px 0px;
+}
+
+.address-details {
+    color: white;
+}
+
+.address p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.numbers {
+    line-height: 2.0;
+}
+
+.numbers a {
+    text-decoration: none;
+    color: white;
+}
+
+.follow h3{ 
+    color: white;
+}
+
+.follow a{
+    padding: 4px;
+    text-decoration: none;
+}
+@media (max-width:942px){
+
+    .footer-logo img{
+        border-radius: 50%;
+        width:40px;
+    }
+    .hours{
+        margin-right:2px;
+        margin-left:2px;
+    }
+
+    .hours h2{
+        font-size: 6px;
+    }
+    .hours h4{
+        font-size: 6px;
+    }
+    .hours h5{
+        font-size: 10px;
+    }
+    .address p{
+        font-size: 10px;
+    }
+    .numbers {
+        line-height: 1.0;
+    }
+    .numbers i{
+        font-size: 10px;
+    }
+    .numbers a{
+        font-size: 10px;
+    }
+    .map iframe{
+        width: 140px;
+        height: 160px;
+    }
+    .follow{
+        margin-left:10px;
+    }
+    .follow h3{
+        font-size: 10px;
+    }
+    .follow a{
+        font-size: 10px;
+    }
+}
+@media (max-width:670px) {
+    .contact-title h2{
+        font-size: 20px;
+    }
+}
+@media (max-width:480px) {
+    .contact-title h2{
+        font-size: 10px;
+    }
+    .footer-logo img{
+        border-radius: 50%;
+        width:40px;
+    }
+    .hours{
+        margin-right:2px;
+        margin-left:2px;
+    }
+
+    .hours h2{
+        font-size: 6px;
+    }
+    .hours h4{
+        font-size: 6px;
+    }
+    .hours h5{
+        font-size: 6px;
+    }
+    .address p{
+        font-size: 6px;
+    }
+    .numbers {
+        line-height: 1.0;
+    }
+    .numbers i{
+        font-size: 6px;
+    }
+    .numbers a{
+        font-size: 6px;
+    }
+    .map iframe{
+        width: 140px;
+        height: 160px;
+    }
+    .follow{
+        margin-left:10px;
+    }
+    .follow h3{
+        font-size: 6px;
+    }
+    .follow a{
+        font-size: 6px;
+    }
+}
